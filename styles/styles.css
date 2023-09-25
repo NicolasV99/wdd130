@@ -4,15 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Class Selectors */
 
-.box{
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}
 
 main{
     max-width: 840px;
@@ -79,4 +71,14 @@ footer{
     color: #000;
     text-align: center;
     margin-top: 1em;
+}
+
+/* Class Selectors */
+
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Dancing+Script&family=Karma&display=swap');
+
+
+:root{
+    --primary-color: #40251A;
+    --seconday-color: #43BE7D;
+    --accent1-color: #000000;
+    --accent2-color: #ffffff;
+
+    --heading-font: 'Bebas Neue', serif;
+    --paragraph-font: 'Karma', serif;
+
+    --nav-brackground-color: #40251A;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #43BE7D;
+    --nav-hover-background-color: #40251A;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    background-color:var(--primary-color);
+    padding: 20px;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+header nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color)
+}
+
+
+p{
+    padding: 25px;
+}
+
+.sociallinks{
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+}
+
+.hero article{
+    position: absolute;
+}
+
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.hero article img{
+    text-align: right;
+}
+
+.hero article p{
+    text-align: left;
+}

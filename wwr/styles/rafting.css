@@ -91,7 +91,7 @@ p{
 }
 
 .hero article p{
-    
+    color: var(--accent1-color);
 }
 
 

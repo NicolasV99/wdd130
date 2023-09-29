@@ -11,7 +11,7 @@
     --heading-font: 'Bebas Neue', serif;
     --paragraph-font: 'Karma', serif;
 
-    --nav-brackground-color: #40251A;
+    --nav-background-color: #40251A;
     --nav-link-color: #ffffff;
     --nav-hover-link-color: #43BE7D;
     --nav-hover-background-color: #40251A;
@@ -38,7 +38,7 @@ p{
 }
 
 nav{
-    background-color: var(--nav-brackground-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }

@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Dancing+Script&family=Karma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+
 
 
 :root{
     --primary-color: #40251A;
-    --seconday-color: #;
-    --accent1-color: #;
-    --accent2-color: #;
+    --seconday-color: #43BE7D;
+    --accent1-color: #000000;
+    --accent2-color: #ffffff;
 
     --heading-font: 'Bebas Neue', serif;
     --paragraph-font: 'Karma', serif;
 
-    --nav-background-color: #;
-    --nav-link-color: #;
-    --nav-hover-link-color: #;
-    --nav-hover-background-color: #;
+    --nav-background-color: #40251A;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #43BE7D;
+    --nav-hover-background-color: #40251A;
 }
 
 body {

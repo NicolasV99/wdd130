@@ -4,17 +4,17 @@
 
 :root{
     --primary-color: #40251A;
-    --seconday-color: #43BE7D;
-    --accent1-color: #000000;
-    --accent2-color: #ffffff;
+    --seconday-color: #;
+    --accent1-color: #;
+    --accent2-color: #;
 
     --heading-font: 'Bebas Neue', serif;
     --paragraph-font: 'Karma', serif;
 
-    --nav-background-color: #40251A;
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #43BE7D;
-    --nav-hover-background-color: #40251A;
+    --nav-background-color: #;
+    --nav-link-color: #;
+    --nav-hover-link-color: #;
+    --nav-hover-background-color: #;
 }
 
 body {

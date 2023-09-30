@@ -44,6 +44,8 @@ header nav a{
     text-transform: uppercase;
     padding: 10px;
     text-align: center;
+    font-family: var(--heading-font);
+    letter-spacing: 1px;
 }
 
 header nav a:link, nav a:visited{
@@ -79,6 +81,7 @@ p{
     padding: 0.65rem;
     box-shadow: 0 0 30px #111;
     opacity: 0.8;
+    font-size: 40px;
 }
 
 .hero article{
@@ -115,6 +118,10 @@ p{
 
 main section{
     text-align: center;
+}
+
+main section h2{
+    font-size: 35px;
 }
 
 footer{

@@ -39,6 +39,7 @@ nav a{
 main h1{
     color: #000;
     border-bottom: 1px solid #000;
+    margin-bottom: 10px;
     
 }
 
@@ -53,7 +54,6 @@ img{
     padding: 1px;
     box-shadow: 0 0 30px gray;
 }
-
 
 main img{
     width: 150px;
@@ -97,3 +97,19 @@ footer{
     color: #000;
 }
 
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}

@@ -32,18 +32,28 @@ header{
     background-color:var(--primary-color);
     padding: 20px;
     text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 150px;
+}
+
+header img{
+    max-width: 100%;
+    height: auto;
 }
 
 header nav{
     display: flex;
     justify-content: space-around;
+    text-align: right;
 }
 
 header nav a{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
-    text-align: center;
+    display: block;
     font-family: var(--heading-font);
     letter-spacing: 1px;
 }
@@ -60,6 +70,16 @@ header nav a:hover{
 
 p{
     padding: 25px;
+}
+
+.history{
+    display: flex;
+    align-items: center;
+}
+
+.history img{
+    max-width: 50%;
+    margin-right: 20px;
 }
 
 .sociallinks{
@@ -116,28 +136,64 @@ p{
 
 }
 
+.adventures {
+    text-align: center;
+  }
+  
+  .adventure-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow-x: auto; 
+    margin: 20px 0; 
+  }
+  
+  figure {
+    text-align: center;
+    margin-right: 20px; 
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figure figcaption {
+    margin-top: 10px; 
+  }
+  
+
 main section{
     text-align: center;
 }
 
 main section h2{
     font-size: 35px;
+    margin-bottom: 0px;
 }
 
 footer{
     background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 
 footer p{
     text-align: center;
     color: var(--accent2-color);
+    margin: 0;
 }
 
 .sociallinks{
-    text-align: center;
     filter: invert(1);
+    margin-right: 20px;
+    text-align: right;
 }
 
 .sociallinks a{
-    padding: 10px;;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
 }

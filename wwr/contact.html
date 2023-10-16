@@ -26,7 +26,7 @@
         <section class="main-content">
             <section class="contact">
                 <div class="company-info">
-                    <h3>Company Information</h3>
+                    <h2>Company Information</h2>
                     <p>123 River Adventure Street, Rapidsville</p>
                     <p>Phone: <a href="tel:+11234567890">123-456-7890</a></p>
                     <p>Email: <a href="mailto:info@raftinglife.com">info@raftinglife.com</a></p>
@@ -36,45 +36,51 @@
                 </div>
                 
             </section>
-            <div class="employee-profiles">
-                <div class="employee-profile">
-                    <img src="images/headshot1.jpg" alt="Employee 1">
-                    <p>John Doe, Rafting Guide</p>
+            <section class="employees">
+                <h2>Get to Know Us</h2>
+                <div class="employee-profiles">
+                    <div class="employee-profile">
+                        <img src="images/headshot1.jpg" alt="Employee 1">
+                        <p>John Doe, Rafting Guide</p>
+                    </div>
+                    <div class="employee-profile">
+                        <img src="images/headshot2.jpg" alt="Employee 2">
+                        <p>Jane Smith, Tour Coordinator</p>
+                    </div>
+                    <div class="employee-profile">
+                        <img src="images/headshot3.jpg" alt="Employee 3">
+                        <p>Mike Johnson, Safety Instructor</p>
+                    </div>
                 </div>
-                <div class="employee-profile">
-                    <img src="images/headshot2.jpg" alt="Employee 2">
-                    <p>Jane Smith, Tour Coordinator</p>
+            </section>
+            <div class="form-container">
+                <div class="contact-form">
+                    <h2>Let's Connect</h2>
+                    <p>Please fill the info below, One of us will contact you soon!</p>
+                    <form action="#" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="purpose">Purpose of Message:</label><br>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry">
+                        <label for="general">General Inquiry</label><br>
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label><br>
+    
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+    
+                        <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+    
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
-                <div class="employee-profile">
-                    <img src="images/headshot3.jpg" alt="Employee 3">
-                    <p>Mike Johnson, Safety Instructor</p>
-                </div>
-            </div>
-    
-            <div class="contact-form">
-                <form action="#" method="POST">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-    
-                    <label for="purpose">Purpose of Message:</label><br>
-                    <input type="radio" id="general" name="purpose" value="General Inquiry">
-                    <label for="general">General Inquiry</label><br>
-                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                    <label for="reservation">Reservation Question</label><br>
-                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                    <label for="suggestion">Website Suggestion</label><br>
-    
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-    
-                    <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
-                    <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
-    
-                    <input type="submit" value="Submit">
-                </form>
             </div>
         </section>
     </main>

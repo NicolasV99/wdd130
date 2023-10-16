@@ -301,6 +301,10 @@ form {
     color: var(--accent2-color);
 }
 
+form p{
+    padding: 20px 0 0 0;
+}
+
 .form input,
 .form textarea {
   width: 100%;

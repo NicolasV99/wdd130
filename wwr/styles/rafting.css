@@ -355,3 +355,42 @@ footer a{
 footer a:hover{
     color: var(--nav-hover-link-color);
 }
+
+
+/******************************Trips page CCS code *********************/
+.cta-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.cta-block h2{
+    color: var(--accent2-color);
+    margin-top: 0px;
+}
+
+.contact-button {
+    background-color: transparent;
+    color: var(--accent2-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid var(--accent2-color);
+    border-radius: 0px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+    letter-spacing: 2px;
+}
+
+.contact-button:hover {
+    background-color: var(--seconday-color);
+    border: 2px solid var(--nav-hover-link-color);
+}

@@ -610,8 +610,14 @@ th {
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    background-color: #fff;
-    color: #ffffff;
+    margin: 40px 0 40px 0;
+    background-color: var(--primary-color);
+  }
+
+  .cta-section h2{
+    color: var(--accent2-color);
+    font-size: 35px;
+    letter-spacing: 2px;
   }
   
   form {
@@ -625,25 +631,39 @@ th {
   label {
     display: block;
     margin-top: 10px;
-    width: 100px; /* Adjust the width as needed */
+    margin-bottom: 15px;
+    width: 60px; /* Adjust the width as needed */
   }
   
   input[type="text"],
   input[type="email"] {
     flex: 1;
-    padding: 10px;
-    margin-top: 5px;
+    padding-right: 10px;
+    margin-top: 0px;
     margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #cccccc;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent; /* Optional: If you want to have a transparent background */
+    color: #ffffff;
   }
   
   input[type="submit"] {
-    background-color: #40251A;
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
+    background-color: transparent;
+    color: var(--accent2-color);
+    padding: 10px 40px;
+    text-decoration: none;
+    border: 2px solid var(--accent2-color);
+    border-radius: 0px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-family: var(--heading-font);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+
+  input[type="submit"]:hover{
+    background-color: var(--seconday-color);
+    border: 2px solid var(--nav-hover-link-color);
   }

@@ -620,7 +620,7 @@ th {
     letter-spacing: 2px;
   }
   
-  form {
+  .cta-section form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -628,15 +628,15 @@ th {
     align-items: center;
   }
   
-  label {
+  .cta-section label {
     display: block;
     margin-top: 10px;
     margin-bottom: 15px;
     width: 60px; /* Adjust the width as needed */
   }
   
-  input[type="text"],
-  input[type="email"] {
+  input[id="name-cta"],
+  input[id="email-cta"] {
     flex: 1;
     padding-right: 10px;
     margin-top: 0px;
